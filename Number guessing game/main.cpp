@@ -4,7 +4,7 @@
 int main()
 {
     std::cout << "Hello, champions-in-the-making! The game is calling, so let's answer with enthusiasm.\n";
-    std::cout << "Enter the guess limit: \n";
+    std::cout << "Enter the Guess limit: \n";
     int limit; 
     std::cin >> limit;
     srand( time(0) ^ clock() );
