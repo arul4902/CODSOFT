@@ -14,7 +14,7 @@ int main()
     
     while (true) 
     {
-        std:: cout << "Enter your guess: ";
+        std:: cout << "Enter your Guess: ";
         int guess; 
         std:: cin >> guess;
         attempts++;  
