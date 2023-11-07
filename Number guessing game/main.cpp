@@ -31,7 +31,7 @@ int main()
         {
             std::cout << "Congrats! You have Guessed correctly!\n";
             std::cout << "It took you " << attempts << " attempt(s) to guess the number.\n";  
-            std::cout << "Thanks for playing. Have a Nice Day!!\n";
+            std::cout << "Thanks for playing. Have a Nice Day!\n";
             break;
         }
     }
