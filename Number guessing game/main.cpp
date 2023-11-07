@@ -9,31 +9,37 @@ int main()
     std::cin >> limit;
     srand( time(0) ^ clock() );
     const int num = rand() % limit;
-    
-    int attempts = 0;  
-    
-    while (true) 
+
+    int maxAttempts = 10; // Set your desired maximum number of attempts.
+    int attempts = 0;
+
+    while (attempts < maxAttempts)
     {
-        std:: cout << "Enter your Guess: ";
+        std::cout << "Enter your Guess (Attempt " << attempts + 1 << "/" << maxAttempts << "): ";
         int guess; 
-        std:: cin >> guess;
-        attempts++;  
-        
-        if(guess < num)
+        std::cin >> guess;
+        attempts++;
+
+        if (guess < num)
         {
             std::cout << "Your Guess is too small, Try again\n";
         }
-        else if(guess > num)
+        else if (guess > num)
         {
             std::cout << "Your Guess is too large, Try again\n";
         }
         else
         {
             std::cout << "Congrats! You have Guessed correctly!!\n";
-            std::cout << "It took you " << attempts << " attempt(s) to guess the number.\n";  
+            std::cout << "It took you " << attempts << " attempt(s) to guess the number.\n";
             std::cout << "Thanks for playing. Have a Nice Day!\n";
             break;
         }
+    }
+
+    if (attempts == maxAttempts)
+    {
+        std::cout << "Sorry, you've reached the maximum number of attempts (" << maxAttempts << "). The correct number was " << num << ". Better luck next time!\n";
     }
 
     return 0;
