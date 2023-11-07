@@ -29,7 +29,7 @@ int main()
         }
         else
         {
-            std::cout << "Congrats! You have guessed correctly!\n";
+            std::cout << "Congrats! You have Guessed correctly!\n";
             std::cout << "It took you " << attempts << " attempt(s) to guess the number.\n";  
             std::cout << "Thanks for playing. Have a nice day!\n";
             break;
