@@ -21,11 +21,11 @@ int main()
         
         if(guess < num)
         {
-            std::cout << "Your guess is too small, Try again\n";
+            std::cout << "Your Guess is too small, Try again\n";
         }
         else if(guess > num)
         {
-            std::cout << "Your guess is too large, Try again\n";
+            std::cout << "Your Guess is too large, Try again\n";
         }
         else
         {
