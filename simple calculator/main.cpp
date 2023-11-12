@@ -63,3 +63,21 @@ int main() {
 
     return 0;
 }
+
+//SAMPLE OUTPUT//
+
+/*
+Enter first operand: 12
+Enter an operation (+, -, *, /, ^ for exponentiation, s for square root): +
+Enter second operand: 12
+12 + 12 = 24
+Do you want to perform another calculation? (Y/N): Y
+Enter first operand: 10
+Enter an operation (+, -, *, /, ^ for exponentiation, s for square root): s
+Square root of 10 = 3.16228
+Do you want to perform another calculation? (Y/N): Y
+Enter first operand: 10
+Enter an operation (+, -, *, /, ^ for exponentiation, s for square root): ^
+Enter the exponent: 2
+10 ^ 2 = 100
+*/
