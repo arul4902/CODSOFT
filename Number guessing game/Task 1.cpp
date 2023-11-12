@@ -50,3 +50,24 @@ int main()
 
     return 0;
 }
+
+//SAMPLE OUTPUT//
+
+/* Hello, champions-in-the-making! The game is calling, so let's answer with enthusiasm.
+Enter the Guess limit:
+20
+Enter your Guess (Attempt 1/10): 1
+Your Guess is too small, Try again
+Enter your Guess (Attempt 2/10): 2
+Your Guess is too small, Try again
+Enter your Guess (Attempt 3/10): 5
+Your Guess is too small, Try again
+Enter your Guess (Attempt 4/10): 7
+Your Guess is too small, Try again
+Enter your Guess (Attempt 5/10): 9
+Your Guess is too small, Try again
+Enter your Guess (Attempt 6/10): 12
+Your Guess is too small, Try again
+Enter your Guess (Attempt 7/10): 18
+Congrats! You have Guessed correctly!!
+It took you 7 attempt(s) to guess the n */
