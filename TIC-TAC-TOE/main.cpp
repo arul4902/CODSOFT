@@ -132,3 +132,91 @@ int main() {
 
     return 0;
 }
+
+// SAMPLE OUTPUT//
+
+/* Let the games begin! ≡ƒÄ«Γ£¿
+Players: Assign 'X' and 'O' to two players.
+Game Board:
+
+
+
+
+Player X, enter your move (row and column, both 0 to 2): 1 2
+Game Board:
+
+    X
+
+
+Player O, enter your move (row and column, both 0 to 2): 0 1
+Game Board:
+  O
+    X
+
+
+Player X, enter your move (row and column, both 0 to 2): 0 0
+Game Board:
+X O
+    X
+
+
+Player O, enter your move (row and column, both 0 to 2): 1 1
+Game Board:
+X O
+  O X
+
+
+Player X, enter your move (row and column, both 0 to 2): 0 0
+Invalid move, please try again.
+Game Board:
+X O
+  O X
+
+
+Player X, enter your move (row and column, both 0 to 2): 1 2
+Invalid move, please try again.
+Game Board:
+X O
+  O X
+
+
+Player X, enter your move (row and column, both 0 to 2): 2 1
+Game Board:
+X O
+  O X
+  X
+
+Player O, enter your move (row and column, both 0 to 2): 2 0
+Game Board:
+X O
+  O X
+O X
+
+Player X, enter your move (row and column, both 0 to 2): 2 2
+Game Board:
+X O
+  O X
+O X X
+
+Player O, enter your move (row and column, both 0 to 2): 1 0
+Game Board:
+X O
+O O X
+O X X
+
+Player X, enter your move (row and column, both 0 to 2): 0 1
+Invalid move, please try again.
+Game Board:
+X O
+O O X
+O X X
+
+Player X, enter your move (row and column, both 0 to 2): 0 2
+Game Board:
+X O X
+O O X
+O X X
+
+Player O wins!
+Do you want to play again? (Y/N): N
+Thank you for playing! */
